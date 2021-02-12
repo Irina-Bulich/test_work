@@ -51,6 +51,7 @@ $description = get_the_archive_description();
 						'caller_get_posts' => $do_not_show_stickies,
 						'paged'	 => $paged,
 						'posts_per_archive_page' => '12',
+						'include_children' => true,
 						'show_all'     => false, // показаны все страницы участвующие в пагинации
 						'end_size'     => 1,     // количество страниц на концах
 						'mid_size'     => 1,     // количество страниц вокруг текущей
